@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Raymond Realty</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 40px;
+      background-color: #f7f7f7;
+      color: #333;
+    }
+    header {
+      text-align: center;
+    }
+    h1 {
+      color: #1f2e46;
+    }
+    section {
+      margin-top: 40px;
+    }
+    footer {
+      margin-top: 60px;
+      text-align: center;
+      font-size: 14px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Raymond Realty</h1>
+    <p>Your dream home awaits</p>
+  </header>
+
+  <section>
+    <h2>Our Projects</h2>
+    <ul>
+      <li>Ten X Habitat</li>
+      <li>The Address by GS</li>
+      <li>Aspire</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contact Us</h2>
+    <p>Email: info@raymondrealty.in</p>
+    <p>Phone: +91-22-12345678</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Raymond Realty. All rights reserved.
+  </footer>
+
+  <!-- Optional: Embed Salesforce Agentforce or Web Chat -->
+  <script type='text/javascript'>
+      console.log('tst::');
+
+    function initEmbeddedMessaging() {
+      try {
+        embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
+ 
+        embeddedservice_bootstrap.init(
+          '00D5D000000EBpg',
+          'Agent',
+          'https://raymondrealty--dev2.sandbox.my.site.com/ESWAgent1753701891782',
+          {
+            scrt2URL: 'https://raymondrealty--dev2.sandbox.my.salesforce-scrt.com'
+          }
+        );
+      } catch (err) {
+        console.error('Error loading Embedded Messaging: ', err);
+      }
+    };
+
+    initEmbeddedMessaging();
+
+  </script>
+
+</body>
+</html>
